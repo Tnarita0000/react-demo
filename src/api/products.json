@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "image": "http://orm-other.s3.amazonaws.com/html5canvassplash/html5canvascover.jpg",
+    "title": "HTML5 Canvas",
+    "price": 20.01,
+    "inventory": 2
+  },
+  {"id": 2,
+    "image": "https://covers.oreillystatic.com/images/9781565924260/lrg.jpg",
+    "title": "Vi",
+    "price": 10.99,
+    "inventory": 3
+  },
+  {"id": 3,
+    "image": "https://covers.oreillystatic.com/images/9780596529833/lrg.jpg",
+    "title": "Vi and Vim",
+    "price": 19.99,
+    "inventory": 4
+  },
+  {"id": 4,
+    "image": "https://covers.oreillystatic.com/images/9780596515805/lrg.jpg",
+    "title": "Drupal",
+    "price": 9.99,
+    "inventory": 2
+  },
+  {"id": 5,
+    "image": "https://covers.oreillystatic.com/images/9780596100292/lrg.jpg",
+    "title": "Unix In A Nutshell",
+    "price": 12.11,
+    "inventory": 2
+  },
+  {"id": 6,
+    "image": "https://cdn-images-1.medium.com/max/1200/1*YRA0buAcPFvPN0pYBSZ0Nw.png",
+    "title": "Information Architecture",
+    "price": 6.01,
+    "inventory": 1 
+  },
+  {"id": 7,
+    "image": "https://cdn.tutsplus.com/net/uploads/legacy/252_fridayFreebie/masteringRegularExpressions.jpg",
+    "title": "Regular Expressions",
+    "price": 8.49,
+    "inventory": 1
+  },
+  {"id": 8,
+    "image": "https://covers.oreillystatic.com/images/9781565922259/lrg.jpg",
+    "title": "Sed & Awk",
+    "price": 14.22,
+    "inventory": 1 
+  },
+  {"id": 9,
+    "image": "https://www.oreilly.co.jp/books/images/picture_large978-4-87311-324-1.jpeg",
+    "title": "Ruby CookBook",
+    "price": 30.22,
+    "inventory": 4 
+  },
+  {"id": 10,
+    "image": "https://www.oreilly.co.jp/books/images/picture_large978-4-87311-743-0.jpeg",
+    "title": "Meta Programming Ruby",
+    "price": 41.50,
+    "inventory": 2 
+  },
+  {"id": 11,
+    "image": "https://www.oreilly.co.jp/books/images/picture_large978-4-87311-756-0.jpeg",
+    "title": "Effective Python",
+    "price": 40.07,
+    "inventory": 4 
+  }
+
+]
