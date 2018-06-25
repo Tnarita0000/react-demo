@@ -1,16 +1,12 @@
 import firebase from 'firebase'
+import { firebaseConfig } from '../firebase.config'
 
-const firebaseConfig = {
-  apiKey:            "",
-  authDomain:        "",
-  databaseURL:       "",
-  projectId:         "",
-  storageBucket:     "",
-  messagingSenderId: ""
-}
-
-const myFirebase  = firebase.initializeApp(firebaseConfig)
-const myFirestore = myFirebase.firestore();
+firebase.initializeApp(firebaseConfig)
+const firestore = firebase.firestore();
 const settings = {timestampsInSnapshots: true};
-myFirestore.settings(settings);
-export { myFirebase, myFirestore };
+firestore.settings(settings);
+
+export {
+  firebase,
+  firestore
+};
