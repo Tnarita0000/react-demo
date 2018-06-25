@@ -1,9 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
+import { compose } from 'redux'
 import { checkout } from '../actions'
 import { getTotal, getCartProducts } from '../reducers'
 import Cart from '../components/Cart'
+import { firestoreConnect } from 'react-redux-firebase'
 
 class CartContainer extends React.Component {
   render() {
@@ -33,7 +35,14 @@ const mapStateToProps = (state) => ({
   total: getTotal(state)
 })
 
-export default connect(
-  mapStateToProps,
-  { checkout }
+export default compose(
+  connect( mapStateToProps, { checkout } ),
+  /* firestoreConnect example
+   *    Get Collection 'users'
+   */
+  firestoreConnect( (props, state) => [
+    {
+      collection: 'users',
+    }
+  ])
 )(CartContainer)
