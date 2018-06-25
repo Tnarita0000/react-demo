@@ -8,12 +8,16 @@
     "react-test-renderer": "^15.6.1"
   },
   "dependencies": {
+    "firebase": "^5.0.4",
     "prop-types": "^15.5.10",
     "react": "^15.5.0",
     "react-dom": "^15.5.0",
     "react-redux": "^5.0.5",
+    "react-redux-firebase": "^2.1.5",
     "redux": "^3.5.2",
+    "redux-firestore": "^0.5.7",
     "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0",
     "redux-thunk": "^2.1.0"
   },
   "scripts": {

@@ -2,11 +2,13 @@ import { combineReducers } from 'redux'
 import cart, * as fromCart from './cart'
 import favorite, * as fromFavorite from './favorite'
 import products, * as fromProducts from './products'
+import { firestoreReducer } from 'redux-firestore'
 
 export default combineReducers({
   cart,
   favorite,
-  products
+  products,
+  firestore: firestoreReducer,
 })
 
 const getAddedIdsToCart = state => fromCart.getAddedIds(state.cart)
